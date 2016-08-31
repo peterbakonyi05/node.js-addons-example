@@ -10,6 +10,10 @@ namespace demo {
   using v8::Value;
 
   void Method(const FunctionCallbackInfo<Value>& args) {
+    // Isolates can run in parallel since they are different instances of V8 entirely
+    // Think of an Isolate as a sandbox - a V8 runtime environment
+    // within an instance of V8 called an Isolate, you can define multiple Contexts so that unrelated applications
+    // can do what they need to do without interfering with each other
     Isolate* isolate = args.GetIsolate();
     args.GetReturnValue().Set(String::NewFromUtf8(isolate, "world"));
   }

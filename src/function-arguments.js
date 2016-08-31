@@ -1,4 +1,3 @@
-// test.js
 const requireAddon = require('./require-addon');
 const addon = requireAddon('function-arguments');
 
