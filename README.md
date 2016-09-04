@@ -3,6 +3,13 @@
 ## Examples:
 
 ### [Node.js addons](https://nodejs.org/api/addons.html)
+
+#### Install, build, run
+* `npm i -g node-gyp`
+* `node-gyp configure build`
+* `node src/example-name.js`
+
+#### Examples
 * Hello World (hello)
 * Function Arguments (function-arguments)
 * Callback (callback)
