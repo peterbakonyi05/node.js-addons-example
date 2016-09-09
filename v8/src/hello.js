@@ -1,4 +1,4 @@
-const requireAddon = require('./require-addon');
-const hello = requireAddon('hello');
+const bindings = require('bindings');
+const hello = bindings('hello');
 
 console.log(hello.hello());

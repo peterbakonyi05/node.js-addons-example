@@ -1,4 +1,4 @@
-const requireAddon = require('./require-addon');
-const addon = requireAddon('function-arguments');
+const bindings = require('bindings');
+const addon = bindings('function-arguments');
 
 console.log('This should be eight:', addon.add(3, 5));

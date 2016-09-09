@@ -1,5 +1,5 @@
-const requireAddon = require('./require-addon');
-const addon = requireAddon('object-factory');
+const bindings = require('bindings');
+const addon = bindings('object-factory');
 
 const obj1 = addon('hello');
 const obj2 = addon('world');
