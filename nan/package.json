@@ -1,0 +1,16 @@
+{
+  "name": "node.js-addons-example-nan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "start": "node src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.2.9"
+  },
+  "gypfile": true
+}

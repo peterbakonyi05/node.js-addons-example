@@ -1,11 +1,11 @@
 # Node.js C++ addons examples and experiments
 
 ## Examples:
-* [using V8 directly](./v8)
+* [Creating addons using V8 directly](./v8)
+* [Crating addons using nan](./nan)
 
 ## TODO:
-* add basic Nan examples
-* finish addons examples
+* finish V8 addons examples
 * perf test of hidden classes
 * perf test of executing the same function multiple times
 * perf test of native C++ vs optimized JS code
