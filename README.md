@@ -1,7 +1,7 @@
 # Node.js C++ addons examples and experiments
 
 ## Examples:
-* [using V8 directly](./v8/README.md)
+* [using V8 directly](./v8)
 
 ## TODO:
 * add basic Nan examples
