@@ -1,9 +1,10 @@
 # [Node.js addons examples - Using V8 directly](https://nodejs.org/api/addons.html)
 
 ## Install, build, run
-* `npm i -g node-gyp`
-* `node-gyp configure build`
-* `node src/example-name.js`
+* `npm i -g node-gyp` (install node-gyp globally)
+* `node-gyp configure build` (compile C++ addons)
+* `npm i` (install local packages)
+* `node src/example-name.js` (try out one of the examples)
 
 ## Examples
 * Hello World (hello)
